@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+
+        <!--Robot Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!--Material Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+        <!--Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+        <!--Custom CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!--Leaflet-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    
+    </head>
+    <body>
+     <div class="container-fluid px-0">
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">
+                <span class="material-icons-outlined me-1">important_devices</span>
+                Yug Makkar
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="container px-3">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link me-lg-3" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link me-lg-3" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link me-lg-3" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link me-lg-3" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link me-lg-3" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!--End Navbar-->    
+
+        <!--Hero-->
+        <header class="bg-light py-5">
+            <div class="container px-5">
+              <div class="row align-items-center">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                  <div class="my-5">
+                    <h2 class="text-center fw-bold mb-2">Hi! I am Yug,</h2>
+                    <h2 class="text-primary text-center fw-bold mb-2">I am a BCA 1<sup>st</sup> year student</h2>
+                    <p class="lead text-muted mb-4">
+                        As a first-year BCA student, 
+                        I am excited to embark on a journey of learning and exploration in the field of computer applications.
+                         I am eager to gain a strong foundation in programming, computer systems, and application development, and I am committed to putting in the effort to succeed. 
+                         I am confident that my studies will equip me with the skills and knowledge necessary to pursue a fulfilling career in the IT industry.
+                    </p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                      <a class="btn btn-primary btn-large text-uppercase" href="#about">
+                        Learn More
+                        <span class="material-icons-outlined ms-2">help_outline</span>
+                      </a>
+                      <a class="btn btn-outline-primary btn-large text-uppercase" href="#projects">
+                        View My Work
+                        <span class="material-icons-outlined ms-2">manage_search</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-5 col-xxl-6 justify-content-center">
+                  <img class="img-fluid rounded-3 my-5" src="images/hero.jpeg" alt="Hero Image">
+                </div>
+              </div>
+            </div>
+          </header>
+        <!--End Hero-->
+
+        <main>
+
+            <!--About-->
+            <section id="about" class="text-center py-5">
+                <div class="container py-5">
+                  <div class="row justify-content-center">
+                    <h2 class="fw-bold">About</h2>
+                    <p class="lead text-muted mb-5">
+                      I am a student of IITM developing this website  as part of the coursework for Web Technology.
+                    </p>
+                  </div>
+                </div>
+                <div class="container mb-5">
+                  <div class="row">
+                    <div class="col-lg-4 mx-auto mb-5">
+                      <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">palette</span>
+                      </div>
+                      <h5>Design</h5>
+                      <p class="text-muted mb-0">
+                        This website has been designed in Light and Dark theme
+                        this Website is also rescaleable according to the size of your device 
+                       
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                      <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">code</span>
+                      </div>
+                      <h5>Development</h5>
+                      <p class="text-muted mb-0">
+                        I have created a responsive website using HTML,CSS,JavaScript and bootstrap
+                      </p>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                      <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">settings</span>
+                      </div>
+                      <h5>Launch & Maintenance</h5>
+                      <p class="text-muted mb-0">
+                        Once the website is ready, I will launch it and
+                        learn how to update and maintain it.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <!--End About-->
+
+            <hr>
+        
+
+            <!--Projects-->
+            <section id="projects" class="text-center py-5">
+                <div class="container py-5">
+                  <div class="row justify-content-center">
+                    <h2 class="fw-bold">Projects</h2>
+                    <p class="lead text-muted mb-5">View some of my latest projects</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 mx-auto mb-5">
+                      <div class="card h-100 shadow-lg border-0 bg-light">
+                        <img class="card-img-top" src="images/project.png" alt="Project 2">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">Portfolio Website</h5>
+                          <div class="mb-2">
+                            <div class="badge bg-primary rounded-pill">HTML</div>
+                            <div class="badge bg-primary rounded-pill">CSS</div>
+                            <div class="badge bg-primary rounded-pill">JavaScript</div>
+                          </div>
+                          <p class="card-text">
+                            A portfolio website built using HTML, CSS, and JavaScript 
+                            it features a clean design
+                            this project was built as part of an assessment.
+                          </p>
+                        </div>
+                        <div class="card-footer bg-transparent mb-3">
+                          <a
+                            class="btn btn-outline-primary btn-sm text-uppercase"
+                            href="https://github.com/BobsProgrammingAcademy/portfolio-website"
+                            target="_blank"
+                          >
+                            <span class="material-icons-outlined me-1">code</span>
+                            Source Code
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+                </div>
+              </section>
+            <!--End Projects-->
+
+            <hr>
+
+            <!--Skills-->
+            <section id="skills" class="text-center py-5">
+                <div class="container py-5">
+                  <div class="row justify-content-center">
+                    <h2 class="fw-bold">Skills</h2>
+                    <p class="lead text-muted mb-5">Here are the skills that I have acquired over the course of my learning period</p>
+                  </div>
+                </div>
+                <div class="container mb-5">
+                  <div class="row">
+                    <div class="col-lg-4 mx-auto mb-5">
+                      <div class="card h-100 shadow-lg border-0 bg-light">
+                        <img class="card-img-top" src="images/html.png" alt="HTML">
+                        <div class="card-body p-4">
+                            <p class="card-text">
+                                HTML stands for HyperText Markup Language. It's the foundation for creating web pages.
+
+                                Think of HTML like a set of instructions for a web browser. 
+                                It tells the browser how to structure the content of a web page, like headings, paragraphs, images, and links. 
+                                It doesn't define the visual style (like colors or fonts), but it provides the building blocks for the content to be displayed.
+                          </p>
+                        </div>
+                     </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                      <div class="card h-100 shadow-lg border-0 bg-light">
+                        <img class="card-img-top" src="images/css.png" alt="CSS">
+                        <div class="card-body p-4">
+                          <p class="card-text">
+                            CSS stands for Cascading Style Sheets. It's a language specifically designed to control the visual presentation of web pages.
+
+                            By using CSS, you can create a consistent and visually appealing look for your web pages, without affecting the underlying content itself. 
+                            This separation of concerns makes it easier to maintain and update multiple web pages at once.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                      <div class="card h-100 shadow-lg border-0 bg-light">
+                        <img class="card-img-top" src="images/js.png" alt="JS">
+                        <div class="card-body p-4">
+                          <h5 class="card-title mb-3">JavaScript</h5>
+                          <p class="card-text">
+                            JavaScript is a programming language that adds interactivity to web pages. It allows web pages to be more dynamic and engaging for users.
+                              JavaScript is the programming language that makes web pages more functional and enjoyable for the user's
+                          </p>
+                        </div>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <!--End Skills-->
+
+            <hr>
+
+            <!--Contact-->
+            <section id="contact" class="text-center py-5">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                <h2 class="fw-bold">Contact</h2>
+                <p class="lead text-muted mb-5">
+                  Want to contact me. Would love to hear from you!
+                </p>
+              </div>
+             </div>
+               <div class="container mb-5">
+                 <div class="row">
+                 <div class="col-xl-5 col-xxl-6 mb-5">
+                  <div id="map"></div>
+                </div>
+                <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5">
+                  <div class="mb-5">
+                    <h6 class="text-uppercase mb-2">Address</h6>
+                    <p class="lead mb-0">Paschim Vihar, New Delhi</p>
+                </div>
+                  <div class="mb-5">
+                    <h6 class="text-uppercase mb-2">Phone</h6>
+                    <p class="lead mb-0">+91 8076429934</p>
+                  </div>
+                    <div class="mb-5">
+                     <h6 class="text-uppercase mb-2">Email</h6>
+                     <p class="lead mb-0">yugmakkar2103@gmail.com</p>
+                     </div>
+                    </div>
+                 </div>
+                </div>
+            </section>
+            <!--End Contact-->
+        </main>
+     </div>
+
+     <hr>
+
+     <!--Footer-->
+     <footer class="text-center py-4">
+        <div class="container px-5 mb-2">Copyright &copy; 2024 Yug Makkar</div>
+    </footer>
+     <!--End Footer-->
+
+        <!-- Leaflet JS -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        
+        <!--Bootstrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!--Custom JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
